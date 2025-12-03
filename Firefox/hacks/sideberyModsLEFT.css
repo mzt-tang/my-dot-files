@@ -1,0 +1,43 @@
+/* Hide Firefox default sidebar icon so it doesn't overlap */
+#sidebar-icon,
+#sidebar-header,
+#sidebar-box #sidebar-header *,
+#sidebar-switcher-target {
+  display: none !important;
+}
+
+#sidebar-box #sidebar-header {
+  visibility: collapse !important;
+}
+
+#sidebar-box {
+  --uc-sidebar-width: 34px !important;
+  --uc-sidebar-hover-width: 230px;
+  --uc-autohide-sidebar-delay: 200ms; /* Wait 0.3s before hiding sidebar */
+  position: relative;
+  min-width: var(--uc-sidebar-width) !important;
+  width: var(--uc-sidebar-width) !important;
+  max-width: var(--uc-sidebar-width) !important;
+  z-index: 3;
+}
+
+#sidebar-box > #sidebar-splitter {
+  display: none;
+}
+
+#sidebar {
+  /* transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important; */
+  transition: min-width 180ms ease !important;
+  min-width: var(--uc-sidebar-width) !important;
+  will-change: min-width;
+}
+
+#sidebar:hover {
+  min-width: var(--uc-sidebar-hover-width) !important;
+  transition-delay: 0ms !important;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+#sidebar-splitter {
+  display: none;
+}
