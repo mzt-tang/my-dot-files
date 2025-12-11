@@ -1,0 +1,352 @@
+{
+  "main": {
+    "id": "b153dcfa1ac4b6a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7510bdbe7f7439c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f16d3a81c932abc5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_001_ Dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "_001_ Dashboard"
+            }
+          },
+          {
+            "id": "3df21b15ea47367f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Essential system apps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Essential system apps"
+            }
+          },
+          {
+            "id": "a3df2ab92f487865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Dreams/Gas vampire dream.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Gas vampire dream"
+            }
+          },
+          {
+            "id": "61f459e516a25e3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Budgeting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Budgeting"
+            }
+          },
+          {
+            "id": "5cae754e31e0ec03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "China and Japan trip.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "China and Japan trip"
+            }
+          },
+          {
+            "id": "896b7b6bea9613cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Investments.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Investments"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa1bcec28d61e1c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "757100c7003672b9",
+        "type": "tabs",
+        "dimension": 70.44573643410853,
+        "children": [
+          {
+            "id": "3c8ca0086f2f196a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a0cff10ac60c0ec8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "FFMPEG",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "646f03e15213ddb6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1dabd818fc7bb279",
+        "type": "tabs",
+        "dimension": 29.554263565891475,
+        "children": [
+          {
+            "id": "8d97cdcc9eace3ea",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "de343ce15f433958",
+    "type": "split",
+    "children": [
+      {
+        "id": "e988c6658783df30",
+        "type": "tabs",
+        "dimension": 62.1124031007752,
+        "children": [
+          {
+            "id": "fd828771239ddc9d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Investments.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224498,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Investments"
+            }
+          },
+          {
+            "id": "e46cda784fafe72c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "078c6654e3e8c9fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Journal/00 Daily/2025-08-12.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-08-12"
+            }
+          }
+        ]
+      },
+      {
+        "id": "93386fe6ede32383",
+        "type": "tabs",
+        "dimension": 37.8875968992248,
+        "children": [
+          {
+            "id": "ec6c1cf77d6791a2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "9d9d29961db70da9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "896b7b6bea9613cd",
+  "lastOpenFiles": [
+    "Investments.md",
+    "Wealth accumulation.md",
+    "_001_ Dashboard.md",
+    "Journal/00 Daily/2025-08-12.md",
+    "China and Japan trip.md",
+    "Essential system apps.md",
+    "_000_ Scratchboard.md",
+    "Journal/00 Daily/2025-10-06.md",
+    "The escape number.md",
+    "Journal/00 Daily/2025-09-21.md",
+    "Journal/Dreams/Gas vampire dream.md",
+    "Budgeting.md",
+    "Journal/00 Daily/2025-08-16.md",
+    "Journal/Dreams/Utopian dystopia matrix dream.md",
+    "_010_ Ideas MOC.md",
+    "Things to do if I am suffering.md",
+    "Fighting game idea.md",
+    "Journal/00 Daily/2023-11-12.md",
+    "Video ideas.md",
+    "Journal/10 Weekly/2023-W42.md",
+    "Journal/10 Weekly/2023-W46.md",
+    "Journal/00 Daily/2023-11-16.md",
+    "Journal/10 Weekly/2024-W35.md",
+    "Journal/00 Daily/2024-08-31.md",
+    "Journal/10 Weekly/2023-W43.md",
+    "Journal/20 Monthly/2023-12 Review.md",
+    "Excalidraw/Drawing 2024-02-11 22.57.32.excalidraw.png",
+    "Attachments/sample.png",
+    "Projects/Tower Defence Game",
+    "Journal/30 Yearly",
+    "Journal/20 Monthly",
+    "Attachments/sylvain-sarrailh-office.jpg",
+    "Recipes/SimpleFoods",
+    "Canvas/Untitled.canvas",
+    "Attachments/Artemis and Adrastus in the snow - Van Soull.jpg",
+    "Attachments/andreas-rocha-clutteredoffice01.jpg",
+    "Attachments/sylvain-sarrailh-office 1.jpg",
+    "Templates/Scripts/makeProgressBar.js",
+    "Templates/Templater",
+    "Templates/Scripts",
+    "Journal/Archived",
+    "Journal/10 Weekly",
+    "Journal/00 Daily",
+    "Attachments/Unsplash - Sebastian Svenson.jpg",
+    "_000_ Dashboard.canvas",
+    "Attachments/Ride - Quentin Marsollier.jpg",
+    "Attachments/Aesthetic background.jpg",
+    "Attachments/imageedit_2_6880659934.jpg",
+    "Canvas/Media overview.canvas",
+    "Untitled.canvas"
+  ]
+}

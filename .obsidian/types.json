@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "related": "multitext",
+    "calories": "number",
+    "serving size": "text"
+  }
+}

@@ -1,0 +1,13 @@
+.tree-item-inner {
+    font-size: 14px;
+    font-weight: bold;
+}
+.markdown-preview-sizer.markdown-preview-section {
+    font-size: 14px;
+}
+
+/*
+.search-result-file-match {     padding: 10px 8px 10px 10px; }
+
+.markdown-preview-view.markdown-rendered.node-insert-event.is-readable-line-width.allow-fold-headings.allow-fold-lists.show-frontmatter {     margin-top: -5px; }
+*/

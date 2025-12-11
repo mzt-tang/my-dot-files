@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "Attachments",
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "rightToLeft": false,
+  "tabSize": 4,
+  "spellcheck": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "propertiesInDocument": "visible",
+  "livePreview": true
+}

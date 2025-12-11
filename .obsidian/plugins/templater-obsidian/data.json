@@ -1,0 +1,37 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Journal/00 Daily",
+      "template": "Templates/Daily entry template.md"
+    },
+    {
+      "folder": "Journal/10 Weekly",
+      "template": "Templates/Weekly entry template.md"
+    },
+    {
+      "folder": "Journal/20 Monthly",
+      "template": "Templates/Monthly review template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

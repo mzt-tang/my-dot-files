@@ -1,0 +1,24 @@
+
+.markdown-embed-content p:first-child {     margin-top: 2px;     margin-bottom: 8px; }
+
+.markdown-embed {
+    margin-top: 3px !important;
+    background: var(--background-modifier-active-hover);
+}
+
+body {
+    --checklist-done-decoration: none !important; 
+}
+
+.markdown-embed-content {
+    padding-right: 25px !important;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+    background-color: var(--background-modifier-active-hover);
+    padding-top: 3px;
+    padding-bottom: 5px;
+    top: 2px;
+}
+
+

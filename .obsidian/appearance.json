@@ -1,0 +1,13 @@
+{
+  "accentColor": "#ff8800",
+  "cssTheme": "Typewriter",
+  "showViewHeader": true,
+  "translucency": false,
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "banner",
+    "[Arc Look] Better look"
+  ],
+  "baseFontSize": 18
+}
