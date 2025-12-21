@@ -1,0 +1,7 @@
+{
+  "autoSync": true,
+  "bidirectionalSync": false,
+  "pythonInterpreter": "/Users/michaeltang/venv/bin/python",
+  "notebookEditorCommand": "code",
+  "enableCodeBlocks": true
+}

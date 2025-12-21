@@ -1,13 +1,14 @@
 {
   "accentColor": "#ff8800",
-  "cssTheme": "Typewriter",
+  "cssTheme": "Blue Topaz",
   "showViewHeader": true,
   "translucency": false,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "banner",
-    "[Arc Look] Better look"
+    "[Arc Look] Better look",
+    "my-custom-styles"
   ],
   "baseFontSize": 18
 }
