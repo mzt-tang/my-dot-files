@@ -1,0 +1,18 @@
+{
+  "description": "Change caps_lock to control+option+shift (Meh key).",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "caps_lock",
+        "modifiers": { "optional": ["any"] }
+      },
+      "to": [
+        {
+          "key_code": "left_shift",
+          "modifiers": ["left_control", "left_option"]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}

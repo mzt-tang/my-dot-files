@@ -1,0 +1,16 @@
+# Yazi configuration
+# Docs: https://yazi-rs.github.io/docs/configuration/yazi
+
+[manager]
+show_hidden = true        # Always show hidden files/folders
+sort_by = "natural"       # Natural sort (file1, file2, file10 not file1, file10, file2)
+sort_dir_first = true     # Directories listed before files
+linemode = "size"         # Show file sizes in the file list
+scrolloff = 5             # Keep 5 lines visible above/below cursor
+
+[preview]
+max_width = 1000          # Wider previews
+max_height = 1000         # Taller previews
+
+[opener]
+[open]

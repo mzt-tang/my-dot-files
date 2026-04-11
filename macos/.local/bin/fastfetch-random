@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+IMAGE_DIR="$HOME/Pictures/fastfetch"
+all_images=(${IMAGE_DIR}/**/*.{jpg,jpeg,png,webp}(N))
+
+if [[ ${#all_images[@]} -eq 0 ]]; then
+  fastfetch
+  exit 0
+fi
+
+img="${all_images[$(( RANDOM % ${#all_images[@]} + 1 ))]}"
+fastfetch --kitty "$img" --logo-width 30 --logo-height 15

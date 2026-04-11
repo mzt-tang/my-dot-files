@@ -1,0 +1,1 @@
+layout { pane size=1 borderless=true { plugin location="zellij:tab-bar"; }; pane split_direction="vertical" { pane name="Terminal" cwd="/Users/michaeltang/Projects/hnry-rails"; pane name="Claude" size="35%" cwd="/Users/michaeltang/Projects/hnry-rails"; }; pane size=2 borderless=true { plugin location="zellij:status-bar"; }; }

@@ -1,0 +1,8 @@
+# Ghostty Minimalist Config
+theme = iTerm2 Solarized Light
+window-decoration = false
+window-padding-x = 12
+window-padding-y = 12
+font-size = 14
+macos-option-as-alt = true
+
