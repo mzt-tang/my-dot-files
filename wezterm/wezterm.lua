@@ -16,7 +16,7 @@ wezterm.on("gui-startup", function(cmd)
   local tab2, pane2 = window:spawn_tab({
     args = { "wsl.exe", "-d", "Ubuntu", "--", "zellij", "attach", "main", "--create" },
   })
-  tab2:set_title("terminal")
+  tab2:set_title("dev")
 
   tab:activate()
 
@@ -72,6 +72,7 @@ config.macos_window_background_blur = 20
 config.window_decorations = 'INTEGRATED_BUTTONS | RESIZE'
 config.hide_tab_bar_if_only_one_tab = false
 config.use_fancy_tab_bar = true
+config.tab_max_width = 32
 
 -- -------------------------------------------------------
 -- Keybindings
