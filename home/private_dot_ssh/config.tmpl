@@ -1,0 +1,13 @@
+# Keep connections alive and use ed25519 keys by default
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_ed25519
+
+# ── Add your hosts below ───────────────────────────────────────────────────
+# Example:
+# Host home-server
+#     HostName 100.x.x.x        # Tailscale IP or local IP
+#     User {{ .chezmoi.username }}
+#     IdentityFile ~/.ssh/id_ed25519
