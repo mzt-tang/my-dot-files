@@ -8,9 +8,9 @@ BIN_DIR="$HOME/.local/bin"
 mkdir -p "$BIN_DIR"
 export PATH="$BIN_DIR:$PATH"
 
-# ── helpers ───────────────────────────────────────────────────────────────────
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# ── helpers ───────────────────────────────────────────────────────────────────
 install_extras_linux() {
     # mise (dev tools version manager)
     if ! command -v mise &>/dev/null; then
@@ -47,6 +47,23 @@ install_extras_linux() {
     fi
 }
 
+set_default_shell() {
+    local shell_path
+    shell_path="$(command -v fish)"
+    if [ -z "$shell_path" ]; then
+        echo "fish not found in PATH, skipping default shell change"
+        return
+    fi
+    # Add to /etc/shells if not already there
+    if ! grep -qxF "$shell_path" /etc/shells; then
+        echo "$shell_path" | sudo tee -a /etc/shells
+    fi
+    if [ "$SHELL" != "$shell_path" ]; then
+        echo "Setting default shell to fish..."
+        chsh -s "$shell_path"
+    fi
+}
+
 # ── chezmoi ───────────────────────────────────────────────────────────────────
 if ! command -v chezmoi &>/dev/null; then
     echo "Installing chezmoi..."
@@ -76,5 +93,8 @@ fi
 echo "Applying dotfiles..."
 chezmoi init --apply "$REPO"
 
+# ── default shell ─────────────────────────────────────────────────────────────
+set_default_shell
+
 echo ""
-echo "Done. Restart your shell or run: exec zsh"
+echo "Done. Log out and back in (or run: exec fish) to start using fish."

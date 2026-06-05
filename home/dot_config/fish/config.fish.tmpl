@@ -1,0 +1,27 @@
+if status is-interactive
+
+    # ── path ──────────────────────────────────────────────────────────────────
+    fish_add_path $HOME/.local/bin
+
+    # ── core tools ────────────────────────────────────────────────────────────
+    mise activate fish | source
+    starship init fish | source
+    zoxide init fish --cmd cd | source
+
+    # ── aliases ───────────────────────────────────────────────────────────────
+    alias ls="eza --icons --git"
+{{ if eq .chezmoi.os "linux" -}}
+    alias cat="batcat"
+{{ else -}}
+    alias cat="bat"
+{{ end -}}
+
+    # ── zellij auto-launch (desktop only) ─────────────────────────────────────
+{{ if not .is_server -}}
+    if not set -q ZELLIJ
+        fastfetch-random
+        zellij --layout agent
+    end
+{{ end -}}
+
+end

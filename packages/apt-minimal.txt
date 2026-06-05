@@ -7,6 +7,7 @@ build-essential
 unzip
 
 # Shell / terminal
+fish
 bat
 fd-find
 
