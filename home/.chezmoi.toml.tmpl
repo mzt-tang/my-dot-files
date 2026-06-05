@@ -1,0 +1,8 @@
+{{- $is_server := promptBoolOnce . "is_server" "Is this a headless server (no GUI apps)?" -}}
+{{- $git_email := promptStringOnce . "git_email" "Git email address" -}}
+{{- $projects_dir := promptStringOnce . "projects_dir" "Projects directory (default: ~/projects)" | default "~/projects" -}}
+
+[data]
+    is_server = {{ $is_server }}
+    git_email = {{ $git_email | quote }}
+    projects_dir = {{ $projects_dir | quote }}

@@ -1,0 +1,14 @@
+# Core
+git
+zsh
+curl
+wget
+build-essential
+unzip
+
+# Shell / terminal
+bat
+fd-find
+
+# Network tools
+openssh-client

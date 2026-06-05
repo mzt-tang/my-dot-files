@@ -1,0 +1,14 @@
+{{ if .is_server -}}
+# Server - skip GUI and desktop-only configs
+.config/ghostty
+.config/karabiner
+.config/yazi
+.config/wezterm
+.zprofile
+{{ end -}}
+
+{{ if ne .chezmoi.os "darwin" -}}
+# Non-macOS - skip macOS-specific configs
+.config/karabiner
+.zprofile
+{{ end -}}
