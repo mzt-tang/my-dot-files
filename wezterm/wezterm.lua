@@ -4,16 +4,10 @@ local mux = wezterm.mux
 local config = wezterm.config_builder()
 
 -- -------------------------------------------------------
--- Startup: open Yazi (PowerShell) + WSL Zellij tabs
+-- Startup: maximize on secondary monitor
 -- -------------------------------------------------------
 wezterm.on("gui-startup", function(cmd)
-  local tab, pane, window = mux.spawn_window(cmd or {
-    args = { "powershell.exe" },
-  })
-  tab:set_title("yazi")
-  pane:send_text("yazi\r")
-
-  tab:activate()
+  local tab, pane, window = mux.spawn_window(cmd or {})
 
   -- Move to secondary monitor and maximize
   local gui_win = window:gui_window()
