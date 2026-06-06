@@ -12,13 +12,15 @@ wezterm.on("gui-startup", function(cmd)
   -- Move to secondary monitor and maximize
   local gui_win = window:gui_window()
   local screens = wezterm.gui.screens()
-  local origin = screens.origin
+  local main = screens.main
   local secondary = nil
-  for _, screen in pairs(screens.by_name) do
-    if screen.x ~= origin.x or screen.y ~= origin.y
-       or screen.width ~= origin.width or screen.height ~= origin.height then
-      secondary = screen
-      break
+  if main then
+    for _, screen in pairs(screens.by_name) do
+      if screen.x ~= main.x or screen.y ~= main.y
+         or screen.width ~= main.width or screen.height ~= main.height then
+        secondary = screen
+        break
+      end
     end
   end
   if secondary then
