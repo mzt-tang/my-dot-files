@@ -13,11 +13,6 @@ wezterm.on("gui-startup", function(cmd)
   tab:set_title("yazi")
   pane:send_text("yazi\r")
 
-  local tab2, pane2 = window:spawn_tab({
-    args = { "wsl.exe", "-d", "Ubuntu", "--", "zellij", "attach", "main", "--create" },
-  })
-  tab2:set_title("dev")
-
   tab:activate()
 
   -- Move to secondary monitor and maximize
