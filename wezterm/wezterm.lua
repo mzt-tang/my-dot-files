@@ -1,33 +1,6 @@
 
 local wezterm = require 'wezterm'
-local mux = wezterm.mux
 local config = wezterm.config_builder()
-
--- -------------------------------------------------------
--- Startup: maximize on secondary monitor
--- -------------------------------------------------------
-wezterm.on("gui-startup", function(cmd)
-  local tab, pane, window = mux.spawn_window(cmd or {})
-
-  -- Move to secondary monitor and maximize
-  local gui_win = window:gui_window()
-  local screens = wezterm.gui.screens()
-  local main = screens.main
-  local secondary = nil
-  if main then
-    for _, screen in pairs(screens.by_name) do
-      if screen.x ~= main.x or screen.y ~= main.y
-         or screen.width ~= main.width or screen.height ~= main.height then
-        secondary = screen
-        break
-      end
-    end
-  end
-  if secondary then
-    gui_win:set_position(secondary.x + 1, secondary.y + 1)
-  end
-  gui_win:maximize()
-end)
 
 -- -------------------------------------------------------
 -- CRITICAL: Kitty keyboard protocol
